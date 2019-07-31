@@ -10,6 +10,14 @@ body, html {
     font-family: sans-serif;
 }
 
+h1 {
+    color: #f8f8ff;
+    font-size: 18px;
+    font-family: "Arial Rounded MT Bold", serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .keys {
     display: flex;
     flex: 1;
