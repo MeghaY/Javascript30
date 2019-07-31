@@ -1,0 +1,55 @@
+html {
+    font-size: 10px;
+    background: url("abstract-music.jpg");
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 14px;
+    padding: 2px 6px;
+    transition: all .07s ease;
+    width: 40px;
+    text-align: center;
+    color: black;
+    background: rgba(85,130,13,0.3);
+    text-shadow: 0 0 1px black;
+}
+.key:nth-child(odd) {
+    width: 80px;
+    height: 50px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: darkmagenta;
+    box-shadow: 0 0 1px darkmagenta;
+}
+
+kbd {
+    display: block;
+    font-size: 10px;
+}
+.sound {
+    font-size: 7px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkmagenta;
+    text-align: center;
+}
